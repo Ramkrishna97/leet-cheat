@@ -1,1 +1,2 @@
 This is to summarise the problems and their approach in short :
+Duplicate : no loop. try to add in collection of unique element(set), returns true/false
