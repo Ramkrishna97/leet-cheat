@@ -2,8 +2,8 @@ This is to summarise the problems and their approach in short :
 Duplicate : no loop. try to add in collection of unique element(set), returns true/false
 Anagram : sorting makes it nLogn, not preferred; loop makes it On. Rather,
      try to increment/add to those letter already present and then try to remove them for the 2nd word.
+Two sum: try to add elements as key to map, works in 1 loop. but, before adding check if the (target-this number) exists or not. if exists then return, otherwise just add to map.
 
 
 
 
-     
