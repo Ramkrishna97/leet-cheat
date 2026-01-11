@@ -8,5 +8,5 @@ This is to summarise the problems and their approach in short :
             use 2 pointer -left/right comes toards center while checks if they are equal or not.
 
 
-
+snsn
 
