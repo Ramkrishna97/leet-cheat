@@ -54,5 +54,21 @@ public class PlusOne {
         return res;        
     
     }
+    //Optimized approach:
+    // traverse all elements, first element increase and if less than 9 instantly return.
+    //if it's 10 , then make it 0 , for next loop make it's previous element +1 and return instantly.
+    static int[] other(int[] digits){
+        final int n=digits.length;
+        for(int i=n-1; i>=0; i--){
+            digits[i]++;
+            if (digits[i]<10) 
+                return digits;
+            digits[i]=0;
+        }
+        digits=new int[n+1];
+        digits[0]=1;
+        return digits;
+    }
+
 }
 
