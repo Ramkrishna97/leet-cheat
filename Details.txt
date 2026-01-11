@@ -7,6 +7,8 @@ This is to summarise the problems and their approach in short :
           if exists then return, otherwise just add to map.
 *Palindrome : transform. check from middle/ends to middle , but not optimal.
             use 2 pointer -left/right comes toards center while checks if they are equal or not.
+*PlusOne  : for traverse from last such that, if it's 9 ,increment , check again if its 10 , make it 0 ,
+                otherwise return instantly, for 1st to be 9, or all 9s, return new array of first 1, others 0.
 
 
 
