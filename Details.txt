@@ -10,7 +10,8 @@ This is to summarise the problems and their approach in short :
 *PlusOne  : for traverse from last such that, if it's 9 ,increment , check again if its 10 , make it 0 ,
                 otherwise return instantly, for 1st to be 9, or all 9s, return new array of first 1, others 0.
 
-
+** Group Anagram : Indexing required , use map for key. check key to add values as a list or add another
+                    key with value as list : List<String> 
 
 
 
