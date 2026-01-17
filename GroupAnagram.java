@@ -37,7 +37,6 @@ class Solution {
         //brute force: try to add elements in  a set, if exists then return combined list.
         //   xx-failes to group 
         // time complexity : O(n^2)
-
         int length=strs.length;
         List<List<String>> result=null;
         Set<String> set=new HashSet<>();
