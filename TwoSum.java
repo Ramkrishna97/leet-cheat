@@ -27,7 +27,6 @@ Constraints:
     Only one valid answer exists.
 */
 
-
 public class TwoSum {
     public static void main(String[] args) {
         System.out.println(test());
