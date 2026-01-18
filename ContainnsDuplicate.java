@@ -21,6 +21,7 @@ public class ContainnsDuplicate {
     
     public static boolean test(){
         int[]nums={1,2,3,1};
+        
             // brute force approach : O(n^2) time complexity, easy to understand, for first loop it takes one input
             // with second loop it check all other element for the first element if it is duplicate or not. 
         // for(int i=0;i<nums.length;i++){
