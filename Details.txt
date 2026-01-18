@@ -16,6 +16,7 @@ med problems have more than 1,2 conditions
 
 
 
+
 strategy : 1 easy , 1 med.
 
 
