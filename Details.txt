@@ -12,6 +12,8 @@ This is to summarise the problems and their approach in short :
 
 ** Group Anagram : Indexing required , use map for key. check key to add values as a list or add another
                     key with value as list : List<String> 
+
+                    
 med problems have more than 1,2 conditions
 
 
