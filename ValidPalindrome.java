@@ -20,7 +20,6 @@ Constraints:
     s is made up of only printable ASCII characters.
 */
 
-
 public class ValidPalindrome {
     public static void main(String[] args) {
         System.out.println(isPalindrome());
@@ -70,7 +69,6 @@ public class ValidPalindrome {
             left++;
             right--;
         }
-
         return true; // All valid characters matched
     }
     
