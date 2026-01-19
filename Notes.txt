@@ -4,4 +4,5 @@ Array : static ,fixed size , easy to add/delete,find(by index) , time complexity
 List : Dynamic size , 
 Set : Unique elemnts
 Map : key-val pair , 1 null only in key , 
+Queue : FIFO type 
 Stack : LIFO type , pop and push to get element from ends.
