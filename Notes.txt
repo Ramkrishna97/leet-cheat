@@ -1,4 +1,4 @@
 DSA :
 Data types :
 Array : static ,fixed size , easy to add/delete,find(by index) , time complexity -  O(n)[insert/delete] , O(1)[ by index]
-Stack : LIFO type 
+Stack : LIFO type , pop and push to get element from ends.
