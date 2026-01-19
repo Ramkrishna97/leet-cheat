@@ -1,3 +1,4 @@
 DSA :
 Data types :
-Array : static ,
+Array : static ,fixed size , easy to add/delete,find(by index) 
+Stack :
