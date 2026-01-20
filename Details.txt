@@ -14,8 +14,6 @@ This is to summarise the problems and their approach in short :
                     key with value as list : List<String> 
 
 
-med problems have more than 1,2 conditions
-need to do 10 more easy problems , and then med problems
 
 
 
