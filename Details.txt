@@ -14,7 +14,7 @@ This is to summarise the problems and their approach in short :
                     key with value as list : List<String> 
 
 
-
+commit day is considered 
 
 
 strategy : 1 easy , 1 med.
