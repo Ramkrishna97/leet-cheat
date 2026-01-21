@@ -17,6 +17,8 @@ This is to summarise the problems and their approach in short :
 commit day is considered , push any day doesn't matter.
 
 
+
+
 strategy : 1 easy , 1 med.
 
 
