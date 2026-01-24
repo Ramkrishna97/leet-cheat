@@ -7,7 +7,11 @@ Set : Unique elemnts
 Map : key-val pair , 1 null only in key , 
 Queue : FIFO type 
 Stack : LIFO type , pop and push to get element from ends.
-Graph : 
+Graph :
+
+Recursion :
+Trie :
+Dynamic Programming :
 
 
             ______Algorithm______
