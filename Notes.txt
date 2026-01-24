@@ -8,3 +8,9 @@ Queue : FIFO type
 Stack : LIFO type , pop and push to get element from ends.
 Graph : 
 
+
+
+            ______Algorithm______
+Sort :
+Search :
+Insertion/Deletion :
