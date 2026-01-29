@@ -24,6 +24,6 @@ strategy : 1 easy , 1 med.
 
 
 
-will be adding notes soon for java 
+will be adding notes soon for java , for interview 
 
 ************************************************************************************************
