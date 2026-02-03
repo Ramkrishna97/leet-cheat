@@ -26,16 +26,31 @@ Constraints:
 
 */
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
         removeDuplicates(new int[]{0, 0, 1, 1, 2, 2, 3});
     }
     public static int removeDuplicates(int[] nums) {
-        for(int i=nums.length-1;i>=0;i--){
-            if(nums[i-1]==nums[i]){
-                nums[i]=null;
-            }
+        /*
+        Bruteforce: adding to set for unique elements , 
+        for k , adding unique elements to original array , return k/i
+        time :O(n) ; space :O(2n)/O(n)
+         */
+        
+        
+        Set<Integer> set=new HashSet<>();
+        int k=0;
+        for(int n:nums){
+            set.add(n);
         }
-        return 0;
+        int i=0;
+        for(int n:set){
+            nums[i++]=n;
+        }
+        // System.out.println("vale of set: "+set+" , len: "+set.size());
+        return i;
     }
 }
