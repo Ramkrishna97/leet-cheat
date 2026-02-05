@@ -26,9 +26,6 @@ Constraints:
 
 */
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
         removeDuplicates(new int[]{0, 0, 1, 1, 2, 2, 3});
@@ -39,18 +36,33 @@ public class RemoveDuplicatesFromSortedArray {
         for k , adding unique elements to original array , return k/i
         time :O(n) ; space :O(2n)/O(n)
          */
-        
-        
-        Set<Integer> set=new HashSet<>();
-        int k=0;
-        for(int n:nums){
-            set.add(n);
+
+        // Set<Integer> set=new HashSet<>();
+        // int k=0;
+        // for(int n:nums){
+        //     set.add(n);
+        // }
+        // int i=0;
+        // for(int n:set){
+        //     nums[i++]=n;
+        // }
+        // return i;
+    
+    /*
+    Optimum : 2 pointer sol : teo pinters counts whole elements , least elements
+    slow pointer counts unique elements , fast pointer iterates whole and replaces.
+    time :(n)   ;  space : O(1)
+    
+    */
+    
+    if (nums.length == 0) return 0;
+        int i = 0; // slow pointer
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
         }
-        int i=0;
-        for(int n:set){
-            nums[i++]=n;
-        }
-        // System.out.println("vale of set: "+set+" , len: "+set.size());
-        return i;
+        return i + 1; // length of unique elements
     }
 }
