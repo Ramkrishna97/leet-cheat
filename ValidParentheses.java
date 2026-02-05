@@ -1,7 +1,6 @@
 
 import java.util.HashMap;
 import java.util.Stack;
-
 /*
 20. *Valid Parentheses [Easy] :
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', 
@@ -37,7 +36,6 @@ Constraints:
     s consists of parentheses only '()[]{}'.
 
 */
-
 
 public class ValidParentheses  {
     public static void main(String[] args) {
@@ -95,7 +93,6 @@ public class ValidParentheses  {
                 stack.push(c);
             }
         }
-
         return stack.isEmpty();
     }    
 }
