@@ -50,8 +50,7 @@ Constraints:
         //if not match over minLength , then instantly the subString. Otherwise return subString of first element till minLength
         if (strs == null || strs.length == 0) {
 	            return "";
-	        }
-	        
+	        }	        
 	        int minLength = Integer.MAX_VALUE;
 	        for (String s : strs) {
 	            if (s.length() < minLength) {
