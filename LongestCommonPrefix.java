@@ -45,7 +45,9 @@ Constraints:
         // return common;
 
 
-        //
+        //optimized approach(taken) : iterate over the smallest length element only
+        //except first element , check each element's i'th position with the [0] first element's i'th character.
+        //if not match over minLength , then instantly the subString. Otherwise return subString of first element till minLength
         if (strs == null || strs.length == 0) {
 	            return "";
 	        }
