@@ -32,7 +32,6 @@ Constraints:
    
     public static String longestCommonPrefix(String[] strs) {
         //BruteForce : iterate over first word, and match its first element to other's first elements , then 2nd and so on.
-        
         // String common="";
         // if(strs.length==0 || strs[0].length()==0) return common;
         // if(strs[0].toCharArray()[0]== strs[1].toCharArray()[0]){
