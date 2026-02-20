@@ -57,8 +57,7 @@ Constraints:
 	            if (s.length() < minLength) {
 	                minLength = s.length();
 	            }
-	        }
-	        
+	        }	        
 	        int i = 0;
 	        while (i < minLength) {
 	            for (String s : strs) {
@@ -67,8 +66,7 @@ Constraints:
 	                }
 	            }
 	            i++;
-	        }
-	        
+	        }	        
 	        return strs[0].substring(0, i);
      }    
    }
