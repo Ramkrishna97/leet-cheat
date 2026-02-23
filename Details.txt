@@ -18,6 +18,7 @@ This is to summarise the problems and their approach in short :
 *LongestCommonPrefix : vertical scanning(bruteforce), horz scanning(O(n*m)),O(1)
 **Two Sum(sorted array) :
 
+
 commit day is considered , push any day doesn't matter.
 
 
