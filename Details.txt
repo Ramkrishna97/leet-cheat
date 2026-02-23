@@ -16,7 +16,7 @@ This is to summarise the problems and their approach in short :
 *Remove Duplicates from Sorted Array : compare adjacent elements , replace if not equal.
 *Climbing Stairs : kind of permutation  , combination type. for n=5 : 4! +5 
 *LongestCommonPrefix : vertical scanning(bruteforce), horz scanning(O(n*m)),O(1)
-**Two Sum(sorted array) :
+**Two Sum(sorted array) : use 2 pointer. not use set, map.
 
 
 commit day is considered , push any day doesn't matter.
