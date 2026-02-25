@@ -53,7 +53,6 @@ public class TwoSum2 {
         //     map.put(i,key);
         //     key++;
         // }
-
         //     int pos=0;
         // for(int i: numbers){
         //     int val=target-i;
