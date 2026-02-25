@@ -60,7 +60,6 @@ public class TwoSum2 {
         //     if(map.containsKey(val)){
         //         return new int[]{map.get(i)+1,map.get(val)+1};
         //     }
-            
         // }return res;
 
 
