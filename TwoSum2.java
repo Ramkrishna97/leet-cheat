@@ -63,8 +63,6 @@ public class TwoSum2 {
         // }return res;
 
 
-
-
         //algomaster : 2 pointer
         if(numbers.length<2) return numbers;
         int left = 0;
