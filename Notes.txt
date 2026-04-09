@@ -11,6 +11,11 @@ Stack : LIFO type , pop and push to get element from ends.
 Graph :
 
 
+
+
+
+
+
 Recursion :
 Trie :
 Dynamic Programming :
