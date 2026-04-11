@@ -15,6 +15,7 @@ This is to summarise the problems and their approach in short :
                     key with value as list : List<String> 
 
 
+
 *Remove Duplicates from Sorted Array : compare adjacent elements , replace if not equal.
 *Climbing Stairs : kind of permutation  , combination type. for n=5 : 4! +5 
 *LongestCommonPrefix : vertical scanning(bruteforce), horz scanning(O(n*m)),O(1)
