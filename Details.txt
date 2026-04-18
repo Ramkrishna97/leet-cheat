@@ -23,7 +23,6 @@ This is to summarise the problems and their approach in short :
 **Two Sum(sorted array) : use 2 pointer with check length(<3). not use set, map because it takes more loops.
 
 
-
 commit day is considered , push any day doesn't matter.
 
 
